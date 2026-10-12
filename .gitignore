@@ -1,0 +1,21 @@
+# Dependencies
+frontend/node_modules/
+backend/node_modules/
+
+# Environment secrets
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Nested Git repository
+backend/.git/
+
+# Build output
+frontend/dist/
+
+# Logs
+*.log
